@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Films</title>
+</head>
+<body>
+{% if films %}
+    <h1>Available films: </h1><br/>
+    <ul>
+    {% for film in films.values %}
+        <li>
+            <h2>Name: {{ film.title }}</h2>
+            <h2>Characters: {{ film.people }}</h2>
+        </li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <h1>No films are available :(</h1><br/>
+{% endif %}
+</body>
+</html>

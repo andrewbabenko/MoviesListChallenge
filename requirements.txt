@@ -1,0 +1,29 @@
+asgiref==3.2.10
+certifi==2020.6.20
+chardet==3.0.4
+Django==3.0.8
+idna==2.10
+importlib-metadata==1.7.0
+mccabe==0.6.1
+mock==4.0.2
+pycodestyle==2.6.0
+pyflakes==2.2.0
+python-memcached==1.59
+pytz==2020.1
+requests==2.24.0
+six==1.15.0
+sqlparse==0.3.1
+urllib3==1.25.10
+zipp==3.1.0
+
+flake8==3.8.3
+# Detect any bad design patters or potential bugs
+flake8-bugbear==19.3.0
+# Detect old string formatting such as modulus (%)
+flake8-pep3101==1.2.1
+# Find any commented or unused code
+flake8-eradicate==0.2.1
+# Detect any mutable default argument values
+flake8-mutable==1.2.0
+# Check for PEP-8 Naming conventions
+pep8-naming

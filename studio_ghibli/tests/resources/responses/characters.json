@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Character 1",
+        "films": ["https://ghibliapi.herokuapp.com/films/11111111-2222-3333-4444-555555555557"]
+    },
+    {
+        "name": "Character 2",
+        "films": ["https://ghibliapi.herokuapp.com/films/11111111-2222-3333-4444-555555555557"]
+    },
+    {
+        "name": "Character 3",
+        "films": ["https://ghibliapi.herokuapp.com/films/11111111-2222-3333-4444-555555555575"]
+    },
+    {
+        "name": "Character 4",
+        "films": ["https://ghibliapi.herokuapp.com/films/11111111-2222-3333-4444-555555555755"]
+    },
+    {
+        "name": "Character 5",
+        "films": ["https://ghibliapi.herokuapp.com/films/11111111-2222-3333-4444-555555555755"]
+    },
+    {
+        "name": "Character 6",
+        "films": ["https://ghibliapi.herokuapp.com/films/11111111-2222-3333-4444-555555555755"]
+    },
+    {
+        "name": "Character 7",
+        "films": ["https://ghibliapi.herokuapp.com/films/11111111-2222-3333-4444-555555557555"]
+    },
+    {
+        "name": "Character 8",
+        "films": ["https://ghibliapi.herokuapp.com/films/11111111-2222-3333-4444-555555557555"]
+    },
+    {
+        "name": "Character 9",
+        "films": ["https://ghibliapi.herokuapp.com/films/11111111-2222-3333-4444-555555555557"]
+    },
+    {
+        "name": "Character 10",
+        "films": ["https://ghibliapi.herokuapp.com/films/11111111-2222-3333-4444-555555555575"]
+    }
+]
