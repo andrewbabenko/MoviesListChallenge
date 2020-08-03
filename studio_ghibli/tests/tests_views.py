@@ -95,7 +95,7 @@ class StudioGhibliViewsTests(MoviesTestCase):
 
     @mock.patch.object(Client, 'get', return_value=None)
     @mock.patch.object(Client, 'set')
-    @mock.patch("studio_ghibli.views.requests.get")
+    @mock.patch("studio_ghibli.services.requests.get")
     @mock.patch("studio_ghibli.views.render")
     def test_get_view_composed_data(self, mock_render, mock_requests_get, *args):
         """ Test StudioGhibliView GET method behaviour with composed data """
@@ -125,7 +125,7 @@ class StudioGhibliViewsTests(MoviesTestCase):
     @mock.patch.object(Client, 'get', return_value=None)
     @mock.patch.object(Client, 'set')
     @mock.patch("studio_ghibli.views.render")
-    @mock.patch("studio_ghibli.views.requests.get")
+    @mock.patch("studio_ghibli.services.requests.get")
     def test_get_view_raise_400_error_for_films(self, mock_requests_get, *args):
         """ Test StudioGhibliView GET method behaviour with error for getting films data """
 
@@ -157,7 +157,7 @@ class StudioGhibliViewsTests(MoviesTestCase):
     @mock.patch.object(Client, 'get', return_value=None)
     @mock.patch.object(Client, 'set')
     @mock.patch("studio_ghibli.views.render")
-    @mock.patch("studio_ghibli.views.requests.get")
+    @mock.patch("studio_ghibli.services.requests.get")
     def test_get_view_raise_400_error_for_characters(self, mock_requests_get, *args):
         """ Test StudioGhibliView GET method behaviour with error for getting characters data """
 
@@ -192,7 +192,7 @@ class StudioGhibliViewsTests(MoviesTestCase):
     @mock.patch.object(Client, 'get', return_value=None)
     @mock.patch.object(Client, 'set')
     @mock.patch("studio_ghibli.views.render")
-    @mock.patch("studio_ghibli.views.requests.get")
+    @mock.patch("studio_ghibli.services.requests.get")
     def test_get_view_create_cache(self, mock_requests_get, mock_render, mock_cache_set, *args):
         """ Test StudioGhibliView GET method behaviour with setting up cache """
 
